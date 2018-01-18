@@ -11,7 +11,7 @@ import zipkin.server.EnableZipkinServer;
  * Created by liangbc on 2017/7/25.
  */
 @EnableAutoConfiguration
-@EnableDiscoveryClient //注册到eureka
+@EnableDiscoveryClient
 @EnableZipkinStreamServer
 @SpringBootApplication(scanBasePackages = {"com.love"})
 public class SleuthApplication {
