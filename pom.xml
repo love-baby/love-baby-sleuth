@@ -62,10 +62,10 @@
             <version>1.5.3</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.jolokia</groupId>
-            <artifactId>jolokia-core</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.jolokia</groupId>-->
+            <!--<artifactId>jolokia-core</artifactId>-->
+        <!--</dependency>-->
         <!--zipkin依赖-->
         <!--此依赖会自动引入spring-cloud-sleuth-stream并且引入zipkin的依赖包-->
         <dependency>
