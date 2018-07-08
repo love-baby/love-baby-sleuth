@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Configuration;
+import zipkin.server.internal.EnableZipkinServer;
 
 /**
  *
@@ -14,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @EnableDiscoveryClient
-@zipkin.server.internal.EnableZipkinServer
+@EnableZipkinServer
 @SpringCloudApplication
 public class SleuthApplication {
     public static void main(String[] args) {
