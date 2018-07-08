@@ -88,6 +88,11 @@
             <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-javanica</artifactId>
+        </dependency>
+
     </dependencies>
     <repositories>
         <repository>
@@ -99,6 +104,7 @@
             </snapshots>
         </repository>
     </repositories>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
