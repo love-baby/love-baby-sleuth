@@ -1,9 +1,9 @@
 package com.love.baby.sleuth;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.context.annotation.ComponentScan;
 import zipkin.server.internal.EnableZipkinServer;
 
 /**
@@ -12,7 +12,7 @@ import zipkin.server.internal.EnableZipkinServer;
  */
 @EnableDiscoveryClient
 @EnableZipkinServer
-@ComponentScan(basePackages = {"*.*"})
+@EnableAutoConfiguration
 @SpringCloudApplication
 public class SleuthApplication {
     public static void main(String[] args) {
