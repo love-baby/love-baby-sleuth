@@ -12,7 +12,7 @@ import zipkin.server.internal.EnableZipkinServer;
  */
 @EnableDiscoveryClient
 @EnableZipkinServer
-@ComponentScan(basePackages = {"zipkin.*"})
+@ComponentScan(basePackages = {"*.*"})
 @SpringCloudApplication
 public class SleuthApplication {
     public static void main(String[] args) {
