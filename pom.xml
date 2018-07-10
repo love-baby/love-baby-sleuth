@@ -18,6 +18,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+        <sleuth-zipkin.version>2.10.1</sleuth-zipkin.version>
     </properties>
 
     <dependencies>
@@ -67,20 +68,20 @@
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin-server</artifactId>
-            <version>2.10.1</version>
+            <version>${sleuth-zipkin.version}</version>
         </dependency>
 
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin-autoconfigure-ui</artifactId>
-            <version>2.10.1</version>
+            <version>${sleuth-zipkin.version}</version>
             <scope>runtime</scope>
         </dependency>
 
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin-autoconfigure-collector-rabbitmq</artifactId>
-            <version>2.10.1</version>
+            <version>${sleuth-zipkin.version}</version>
         </dependency>
 
         <dependency>
