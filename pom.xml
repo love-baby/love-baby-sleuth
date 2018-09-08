@@ -18,7 +18,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
-        <sleuth-zipkin.version>2.10.1</sleuth-zipkin.version>
+        <sleuth-zipkin.version>2.11.5</sleuth-zipkin.version>
     </properties>
 
     <dependencies>
